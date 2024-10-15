@@ -37,5 +37,19 @@
   ],
   "tenants": [
     { "id": 1, "name": "John Doe" }
+  ],
+  "landlords": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "contact_email": "juan.perez@example.com",
+      "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
+    },
+    {
+      "id": 2,
+      "name": "Ana Gómez",
+      "contact_email": "ana.gomez@example.com",
+      "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
+    }
   ]
 }
