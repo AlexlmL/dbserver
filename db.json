@@ -7,10 +7,10 @@
       "house_modality": "rental",
       "price": 800,
       "landlord_id": 2,
-      "terms": [
-        { "description": "Término 1 para Property A", "agreed": true },
-        { "description": "Término 2 para Property A", "agreed": true }
-      ]
+      "terms": {
+        "description": "Término 1 para Property A: Aceptado, Término 2 para Property A: Aceptado",
+        "agreed": true
+      }
     },
     {
       "id": 2,
@@ -18,10 +18,10 @@
       "house_modality": "sale",
       "price": 120000,
       "landlord_id": 1,
-      "terms": [
-        { "description": "Término 1 para Property B", "agreed": true },
-        { "description": "Término 2 para Property B", "agreed": false }
-      ]
+      "terms": {
+        "description": "Término 1 para Property B: Aceptado, Término 2 para Property B: No Aceptado",
+        "agreed": false
+      }
     },
     {
       "id": 3,
@@ -29,14 +29,13 @@
       "house_modality": "sale",
       "price": 200000,
       "landlord_id": 1,
-      "terms": [
-        { "description": "Término 1 para Property C", "agreed": false },
-        { "description": "Término 2 para Property C", "agreed": true }
-      ]
+      "terms": {
+        "description": "Término 1 para Property C: No Aceptado, Término 2 para Property C: Aceptado",
+        "agreed": true
+      }
     }
   ],
   "tenants": [
     { "id": 1, "name": "John Doe" }
   ]
 }
-
