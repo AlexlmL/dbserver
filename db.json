@@ -19,7 +19,7 @@
       "price": 120000,
       "landlord_id": 1,
       "terms": {
-        "description": "Término 1, Término 2",
+        "description": "Término 3, Término 4",
         "agreed": null
       }
     },
@@ -30,7 +30,7 @@
       "price": 200000,
       "landlord_id": 1,
       "terms": {
-        "description": "Término 1, Término 2",
+        "description": "Término 1, Término 4",
         "agreed": null
       }
     }
