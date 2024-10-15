@@ -8,7 +8,7 @@
       "price": 800,
       "landlord_id": 2,
       "terms": {
-        "description": "Término 1 para Property A: Aceptado, Término 2 para Property A: Aceptado",
+        "description": "Término 1, Término 2",
         "agreed": null
       }
     },
@@ -19,7 +19,7 @@
       "price": 120000,
       "landlord_id": 1,
       "terms": {
-        "description": "Término 1 para Property B: Aceptado, Término 2 para Property B: No Aceptado",
+        "description": "Término 1, Término 2",
         "agreed": null
       }
     },
@@ -30,7 +30,7 @@
       "price": 200000,
       "landlord_id": 1,
       "terms": {
-        "description": "Término 1 para Property C: No Aceptado, Término 2 para Property C: Aceptado",
+        "description": "Término 1, Término 2",
         "agreed": null
       }
     }
