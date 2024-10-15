@@ -9,7 +9,7 @@
       "landlord_id": 2,
       "terms": {
         "description": "Término 1 para Property A: Aceptado, Término 2 para Property A: Aceptado",
-        "agreed": true
+        "agreed": null
       }
     },
     {
@@ -20,7 +20,7 @@
       "landlord_id": 1,
       "terms": {
         "description": "Término 1 para Property B: Aceptado, Término 2 para Property B: No Aceptado",
-        "agreed": false
+        "agreed": null
       }
     },
     {
@@ -31,7 +31,7 @@
       "landlord_id": 1,
       "terms": {
         "description": "Término 1 para Property C: No Aceptado, Término 2 para Property C: Aceptado",
-        "agreed": true
+        "agreed": null
       }
     }
   ],
