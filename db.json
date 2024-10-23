@@ -4,6 +4,7 @@
     {
       "id": 1,
       "name": "Property A",
+      "address": "Calle Falsa 123, Ciudad A",
       "house_modality": "rental",
       "price": 800,
       "landlord_id": 2,
@@ -15,6 +16,7 @@
     {
       "id": 2,
       "name": "Property B",
+      "address": "Avenida Siempre Viva 742, Ciudad B",
       "house_modality": "sale",
       "price": 120000,
       "landlord_id": 1,
@@ -26,6 +28,7 @@
     {
       "id": 3,
       "name": "Property C",
+      "address": "Boulevard de los Sueños Rotos 55, Ciudad C",
       "house_modality": "sale",
       "price": 200000,
       "landlord_id": 1,
@@ -36,18 +39,24 @@
     }
   ],
   "tenants": [
-    { "id": 1, "name": "John Doe" }
+    {
+      "id": 1,
+      "name": "John Doe",
+      "dni": "12345678X"
+    }
   ],
   "landlords": [
     {
       "id": 1,
       "name": "Juan Pérez",
+      "dni": "98765432Y",
       "contact_email": "juan.perez@example.com",
       "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
     },
     {
       "id": 2,
       "name": "Ana Gómez",
+      "dni": "87654321Z",
       "contact_email": "ana.gomez@example.com",
       "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
     }
