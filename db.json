@@ -121,27 +121,6 @@
       "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
     }
   ],
-  "payments": [],
-  "verification": [
-    {
-      "id": 1,
-      "verification_type": "DOCUMENT",
-      "verification_date": "2021-01-01",
-      "verification_status": "PENDING"
-    },
-    {
-      "id": 2,
-      "verification_type": "PHOTO",
-      "verification_date": "2021-01-02",
-      "verification_status": "COMPLETED"
-    },
-    {
-      "id": 3,
-      "verification_type": "DOCUMENT",
-      "verification_date": "2021-01-01",
-      "verification_status": "REJECTED"
-    }
-  ],
   "houses_managers": [
     {
       "id": 1,
@@ -209,65 +188,6 @@
       "photo": "http://localhost:3002/houses_managers",
       "video": "http://localhost:3002/houses_managers",
       "termsConditions": "essdfsdfdgfdhgjkhgfdsshgjdsghjkggfdssgshjkljfd",
-      "id": 4
-    }
-  ],
-  "feedbacks": [
-    {
-      "id": 1,
-      "propertyId": 1,
-      "userId": 5,
-      "userName": "Manuel Perez",
-      "score": 4,
-      "comments": "Excelente casa, muy cómoda y bien ubicada."
-    },
-    {
-      "id": 2,
-      "propertyId": 5,
-      "userId": 3,
-      "userName": "Juan Fernandez",
-      "score": 4,
-      "comments": "El apartamento está bien, pero el precio es un poco alto."
-    },
-    {
-      "id": 3,
-      "propertyId": 3,
-      "userId": 2,
-      "userName": "María Manrique",
-      "score": 5,
-      "comments": "El jardín es hermoso, ideal para la familia."
-    },
-    {
-      "id": 4,
-      "propertyId": 1,
-      "userId": 7,
-      "userName": "Fernando Lopez",
-      "score": 4,
-      "comments": "Bonita vista al parque, pero los vecinos son un poco ruidosos."
-    },
-    {
-      "id": 5,
-      "propertyId": 1,
-      "userId": 10,
-      "userName": "Ana Espinoza",
-      "score": 5,
-      "comments": "Casa muy espaciosa y cómoda para una familia grande."
-    }
-  ],
-  "reservations": [
-    {
-      "start_date": "2024-10-15",
-      "end_date": "2024-10-16",
-      "id": 1
-    },
-    {
-      "start_date": "2024-10-20",
-      "end_date": "2024-10-21",
-      "id": 3
-    },
-    {
-      "start_date": "2024-11-22",
-      "end_date": "2024-11-23",
       "id": 4
     }
   ],
