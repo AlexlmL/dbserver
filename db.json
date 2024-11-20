@@ -1,64 +1,286 @@
 {
   "contracts": [],
-  "properties": [
+  "houses": [
     {
       "id": 1,
-      "name": "Property A",
-      "address": "Calle Falsa 123, Ciudad A",
-      "house_modality": "rental",
-      "price": 800,
-      "landlord_id": 2,
-      "terms": {
-        "description": "Término 1, Término 2",
-        "agreed": null
-      }
+      "user_property_id": 1,
+      "house_name": "House 1",
+      "address": "1234 Main St",
+      "house_type": "APARTMENT",
+      "house_modal": "SALE",
+      "price": 100000,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "LEASED",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "verification_id": 1
     },
     {
       "id": 2,
-      "name": "Property B",
-      "address": "Avenida Siempre Viva 742, Ciudad B",
-      "house_modality": "sale",
-      "price": 120000,
-      "landlord_id": 1,
-      "terms": {
-        "description": "Término 3, Término 4",
-        "agreed": null
-      }
+      "user_property_id": 2,
+      "house_name": "House 2",
+      "address": "1234 Main St",
+      "house_type": "HOUSE",
+      "house_modal": "RENTAL",
+      "price": 1000.4,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "NO REQUEST",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "verification_id": 2
     },
     {
       "id": 3,
-      "name": "Property C",
-      "address": "Boulevard de los Sueños Rotos 55, Ciudad C",
-      "house_modality": "sale",
-      "price": 200000,
-      "landlord_id": 1,
-      "terms": {
-        "description": "Término 1, Término 4",
-        "agreed": null
-      }
+      "user_property_id": 3,
+      "house_name": "House 3",
+      "address": "1234 Main St",
+      "house_type": "APARTMENT",
+      "house_modal": "SALE",
+      "price": 100000,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "IN PROGRESS",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "verification_id": 3
     }
   ],
-  "tenants": [
+  "houses-payments": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "dni": "12345678"
+      "houseId": 1,
+      "ownerId": 6,
+      "amount": 50000,
+      "size": "Es muy grande",
+      "spaces": 3,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "comprar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
+    },
+    {
+      "houseId": 2,
+      "ownerId": 5,
+      "amount": 40000,
+      "size": "Es muy grande",
+      "spaces": 3,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "alquilar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
+    },
+    {
+      "houseId": 3,
+      "ownerId": 4,
+      "amount": 30000,
+      "size": "Es muy grande",
+      "spaces": 2,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "comprar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
+    },
+    {
+      "houseId": 4,
+      "ownerId": 3,
+      "amount": 20000,
+      "size": "Es muy grande",
+      "spaces": 1,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "alquilar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
+    },
+    {
+      "houseId": 5,
+      "ownerId": 2,
+      "amount": 20000,
+      "size": "Es muy grande",
+      "spaces": 1,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "alquilar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
+    },
+    {
+      "houseId": 6,
+      "ownerId": 1,
+      "amount": 20000,
+      "size": "Es muy grande",
+      "spaces": 1,
+      "nearest": "Esta muy cerca",
+      "description": "Es muy bonita",
+      "type": "comprar",
+      "imageUrl": "https://i.postimg.cc/3NyhYt06/image.png"
     }
   ],
-  "landlords": [
+  "payments": [],
+  "verification": [
     {
       "id": 1,
-      "name": "Juan Pérez",
-      "dni": "98765432",
-      "contact_email": "juan.perez@example.com",
-      "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
+      "verification_type": "DOCUMENT",
+      "verification_date": "2021-01-01",
+      "verification_status": "PENDING"
     },
     {
       "id": 2,
-      "name": "Ana Gómez",
-      "dni": "87654321",
-      "contact_email": "ana.gomez@example.com",
-      "signature": "https://i.postimg.cc/mZn6MMyH/firma-propietario.png"
+      "verification_type": "PHOTO",
+      "verification_date": "2021-01-02",
+      "verification_status": "COMPLETED"
+    },
+    {
+      "id": 3,
+      "verification_type": "DOCUMENT",
+      "verification_date": "2021-01-01",
+      "verification_status": "REJECTED"
+    }
+  ],
+  "houses_managers": [
+    {
+      "id": 1,
+      "user_property_id": 1,
+      "house_name": "House 1",
+      "address": "1234 Main St",
+      "house_type": "APARTMENT",
+      "house_modal": "SALE",
+      "price": 100000,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "LEASED",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "termsConditions": "Terminos y condiciones 1"
+    },
+    {
+      "id": 2,
+      "user_property_id": 2,
+      "house_name": "House 2",
+      "address": "1234 Main St",
+      "house_type": "HOUSE",
+      "house_modal": "RENTAL",
+      "price": 1000.4,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "NO REQUEST",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "termsConditions": "Terminos y condiciones 2"
+    },
+    {
+      "id": 3,
+      "user_property_id": 3,
+      "house_name": "House 3",
+      "address": "1234 Main St",
+      "house_type": "APARTMENT",
+      "house_modal": "SALE",
+      "price": 100000,
+      "size": 1000,
+      "description": "This is a house",
+      "publication_date": "2021-01-01",
+      "starts_calification": 1,
+      "status_landlord": "IN PROGRESS",
+      "photo": "https://via.placeholder.com/150",
+      "video": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "termsConditions": "terminos y condiciones 3"
+    },
+    {
+      "user_property_id": "1",
+      "house_name": "a",
+      "address": "as",
+      "house_type": "HOUSE",
+      "house_modal": "RENTAL",
+      "price": 45,
+      "size": 9,
+      "description": "as",
+      "publication_date": "2024-11-18",
+      "starts_calification": 3,
+      "status_landlord": "NO REQUEST",
+      "photo": "http://localhost:3002/houses_managers",
+      "video": "http://localhost:3002/houses_managers",
+      "termsConditions": "essdfsdfdgfdhgjkhgfdsshgjdsghjkggfdssgshjkljfd",
+      "id": 4
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "userId": 5,
+      "userName": "Manuel Perez",
+      "score": 4,
+      "comments": "Excelente casa, muy cómoda y bien ubicada."
+    },
+    {
+      "id": 2,
+      "propertyId": 5,
+      "userId": 3,
+      "userName": "Juan Fernandez",
+      "score": 4,
+      "comments": "El apartamento está bien, pero el precio es un poco alto."
+    },
+    {
+      "id": 3,
+      "propertyId": 3,
+      "userId": 2,
+      "userName": "María Manrique",
+      "score": 5,
+      "comments": "El jardín es hermoso, ideal para la familia."
+    },
+    {
+      "id": 4,
+      "propertyId": 1,
+      "userId": 7,
+      "userName": "Fernando Lopez",
+      "score": 4,
+      "comments": "Bonita vista al parque, pero los vecinos son un poco ruidosos."
+    },
+    {
+      "id": 5,
+      "propertyId": 1,
+      "userId": 10,
+      "userName": "Ana Espinoza",
+      "score": 5,
+      "comments": "Casa muy espaciosa y cómoda para una familia grande."
+    }
+  ],
+  "reservations": [
+    {
+      "start_date": "2024-10-15",
+      "end_date": "2024-10-16",
+      "id": 1
+    },
+    {
+      "start_date": "2024-10-20",
+      "end_date": "2024-10-21",
+      "id": 3
+    },
+    {
+      "start_date": "2024-11-22",
+      "end_date": "2024-11-23",
+      "id": 4
+    }
+  ],
+  "tenant": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "123-456-7890",
+      "address": "456 Elm St",
+      "role": "landlord",
+      "profile_photo": "https://via.placeholder.com/150",
+      "registered_date": "2024-11-19"
     }
   ]
 }
