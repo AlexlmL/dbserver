@@ -202,6 +202,17 @@
       "role": "landlord",
       "profile_photo": "https://via.placeholder.com/150",
       "registered_date": "2024-11-19"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "dni": "87654321",
+      "phone": "123-456-7890",
+      "address": "456 Elm St",
+      "role": "landlord",
+      "profile_photo": "https://via.placeholder.com/150",
+      "registered_date": "2024-11-19"
     }
   ]
 }
